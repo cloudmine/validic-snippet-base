@@ -1,0 +1,35 @@
+{
+  "name": "validic-test-snippets",
+  "version": "0.0.1",
+  "author": "Ben Moser, Director of Client Success, CloudMine",
+  "license": "MIT",
+  "description": "Snippets for integrating CloudMine and Validic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudmine/node-snippet-base.git"
+  },
+  "keywords": [
+    "CloudMine",
+    "cloudmine"
+  ],
+  "bugs": {
+    "url": "https://github.com/cloudmine/node-snippet-base/issues"
+  },
+  "homepage": "https://github.com/cloudmine/node-snippet-base",
+  "engines": {
+    "node": "0.10.35",
+    "npm": "2.5.0"
+  },
+  "dependencies": {
+    "cloudmine": "*",
+    "cloudmine-servercode": "1.2.0",
+    "lodash": "^4.17.4",
+    "q": "*",
+    "request": "*",
+    "request-promise": "^4.2.1"
+  }
+}
